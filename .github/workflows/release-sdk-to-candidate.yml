@@ -33,7 +33,8 @@ jobs:
   release-sdk:
     name: 🚢 Release to latest/candidate
     needs: get-architectures
-    runs-on: self-hosted
+    #runs-on: self-hosted
+    runs-on: ubuntu-latest
     environment: "2404 Branch"
     timeout-minutes: 720
     strategy:
