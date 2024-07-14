@@ -11,10 +11,10 @@ lint:
     - library
 platforms:
   amd64:
-  arm64:
-  armhf:
-  ppc64el:
-  s390x:
+  # arm64:
+  # armhf:
+  # ppc64el:
+  # s390x:
 slots:
   webkitgtk-6-gnome-2404:
     interface: content
